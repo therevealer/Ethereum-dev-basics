@@ -12,7 +12,5 @@ contract payableContract {
     }
   }
 } 
-// MSKYP3ZCVYER3JTT4TMBC6VGFA4RED916
-// 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
-// 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
+
 
