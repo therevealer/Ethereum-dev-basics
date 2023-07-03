@@ -27,9 +27,9 @@
 			{
 				"inputs": [
 					{
-						"internalType": "string",
+						"internalType": "address",
 						"name": "",
-						"type": "string"
+						"type": "address"
 					}
 				],
 				"name": "myString",
@@ -41,6 +41,26 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_myMapping",
+						"type": "uint256"
+					}
+				],
+				"name": "setMyMapping",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setMyString",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -72,11 +92,11 @@
 	},
 	"sources": {
 		"contracts/mappin.sol": {
-			"keccak256": "0x264e1d83aa3cad0c9874c02d57d05c399cca1ed221a64328e11ac0caa7f72fdd",
+			"keccak256": "0xe8b6374a8782f213554e190cd253b9bd39a42e1fde5ed747443a2de704bd873e",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://999a15c66104f0008ec7b46d26d948480d8079199f428dd0704f187d774cc380",
-				"dweb:/ipfs/QmSjbtxi8DNZRLGtcGw8PkQy2nLqKSZr6RVeEoJe78Yh3x"
+				"bzz-raw://084f279de05a91449bb060c2e867afe9c991de0485086afd206954abb49dc243",
+				"dweb:/ipfs/QmdnZdYi5gT7DCn9VVRmfTqrq6kvEGCHQDJyr9e6LfVEHY"
 			]
 		}
 	},
